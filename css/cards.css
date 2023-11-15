@@ -1,0 +1,149 @@
+*{
+    box-sizing: inherit;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.DrawingsCard {
+    clear: both;
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 0 265px;
+    position: relative;
+    z-index: 2;
+}
+.cardlist {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+article, div {
+    display: block;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+div {
+    display: block;
+}
+body {
+    -webkit-text-size-adjust: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+element.style {
+    background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blta877c35110144de9/60ee0b2…/aatrox-splash.jpg);
+    background-position: 70.3646% 32.037%;
+    opacity: 1;
+}
+.named {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(10,10,12,.9);
+    border-top: 1px solid #927345;
+    padding: 22px;
+    text-align: center;
+    transition: .4s;
+}
+.Imgcard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-attachment: local;
+    background-color: #0a0a0c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity .4s ease;
+    width: 100%;
+}
+
+.item_card1 {
+    flex: 0 1 19%;
+    height: 425px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    opacity: 1;
+    position: relative;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+a, button {
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    transition: .2s;
+}
+
+a, button {
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    transition: .2s;
+}
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cardcontent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition-property: -webkit-transform,z-index,border;
+    -moz-transition-property: -moz-transform,z-index,border;
+    transition-property: transform,z-index,border;
+    -webkit-transition-timing-function: ease,linear,ease;
+    -moz-transition-timing-function: ease,linear,ease;
+    transition-timing-function: ease,linear,ease;
+    -webkit-transition-duration: .4s,.4s,.4s;
+    -moz-transition-duration: .4s,.4s,.4s;
+    transition-duration: .4s,.4s,.4s;
+    border: 1px solid rgba(10,10,12,.9);
+    box-shadow: 0 0 16px 14px rgba(0,0,0,.2);
+    z-index: 1;
+}

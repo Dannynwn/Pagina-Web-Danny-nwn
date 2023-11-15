@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: rgb(18, 24, 36);
+    -webkit-font-smoothing: antialiased;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0;
+    background-image: linear-gradient(rgba(18, 24, 36, 0.7), rgba(255, 255, 255, 0));
+    background-color: rgba(18, 24, 36, 0);
+    border-bottom: none;
+    transition-duration: 300ms;
+
+}
+
+.navscroll {
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #353740 !important;
+    background-color: rgb(18, 24, 36);
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 7vh;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.dropdown-item {
+    color: aliceblue;
+}
+
+.d-video {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+button {
+    padding-left: 5px;
+}
+
+.search {
+    width: 50%;
+}
+
+.buscar {
+    padding-left: 7px;
+    margin-top: -1px;
+}
+
+.sesion {
+    margin-top: -1px;
+    padding-left: 20px;
+}
+
+footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+
+.Gallery {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#carouselExampleCaptions {
+    height: 65vh;
+
+}
+
+.carousel-inner {
+    height: inherit;
+}
+
+#degred {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(18, 24, 36, 1));
+}
+
+aside {
+    background-color: rgba(18, 24, 36, 0.70);
+    height: auto;
+    width: 100%;
+
+}
+
+@keyframes fanimado {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.contenido {
+    background-image: linear-gradient(rgba(18, 24, 36, 1), rgba(255, 255, 255, 0));
+    background-size: 500%;
+    animation: fanimado 20s infinite;
+    height: auto;
+    background-color: rgb(38, 65, 87);
+    justify-content: center;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.danny {
+    width: 60%;
+    padding-top: 100px;
+}
+
+.imagen {
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.carousel {
+    height: calc(65vh+70px);
+}
+
+.carousel-item img {
+    height: 65vh;
+    object-fit: cover;
+    opacity: 40%;
+}
+
+.carousel-item {
+    height: 65vh;
+}
+
+.dannyinfo {
+    color: aliceblue;
+    font-size: 17px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+.about {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    filter: drop-shadow(3px 3px 5px #212b3a);
+}
+
+.card {
+    background-color: rgb(38, 65, 87);
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 0;
+    transition-duration: 0.3s;
+    background-image: linear-gradient(rgba(18, 24, 36, 0), rgba(18, 24, 36, 0.7));
+    align-items: center;
+    justify-content: center;
+
+}
+
+#idlogo {
+    height: inherit;
+    width: 100%;
+}
+
+.img-fluid {
+    height: inherit;
+    width: 100%;
+}
+
+.card-body {
+    color: aliceblue;
+    font-family: Lato, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.d-video {
+    width: 100%;
+    opacity: 80%;
+}
+
+.img1 {
+    width: 100%;
+    height: 240px;
+    padding-top: 30px;
+}
+
+.cards {
+    width: 200px;
+    height: 395px;
+}
+
+.imgtarjet {
+    height: inherit;
+    object-fit: cover;
+    position: relative;
+    filter: brightness(0.6);
+}
+
+.row {
+    justify-content: center;
+
+}
+
+div {
+    display: block;
+}
+
+.sucess {
+    background-color: rgb(36, 45, 65);
+}
+
+#sesion {
+    background-color: #212b3a;
+}
+
+.dropdown-menu {
+    background-color: #212b3a;
+}
+
+.navlink {
+    color: aliceblue;
+}
+
+.dropdown-divider {
+    color: aliceblue;
+}
+
+#navbarDropdown {
+    color: aliceblue;
+}
+
+#user {
+    height: 30px;
+    padding-right: 0;
+}
+
+#search {
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.d-flex {
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#sucess {
+    margin: 0 20px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: inset;
+}

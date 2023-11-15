@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="../img/dani.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/html.css" />
+  <title>Danny&Drawings</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" data-bs-theme="dark">
+
+      <div class="container-fluid">
+        <img href="../html/index.html" class="logo navbar-brand" src="../img/logo.png" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Me interesa un dibujo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Galeria de Arte
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Dibujos Originales</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Fanarts</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Retratos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Sketchs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Logos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Animaciones</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">NSFW</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button id="search" class="btn btn-secondary" type="submit">Buscar</button>
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search" />
+          </form>
+          <div id="sucess" class="nav-item dropdown">
+
+            <button id="identi" class="btn btn-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img id=user class="logo" src="../img/user.png">
+              Identificarse
+            </button>
+
+            <ul id=sesion class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Identificarse</a></li>
+              <li><a class="dropdown-item" href="#">Registrarse</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Ver mi perfil</a></li>
+              <li><a class="dropdown-item" href="#">Administrar cuenta</a></li>
+              <li><a class="dropdown-item" href="#">Dibujos guardados</a></li>
+              <li><a class="dropdown-item" href="#">Cartera</a></li>
+              <li><a class="dropdown-item" href="#">Otros sitios</a></li>
+              <li><a class="dropdown-item" href="#">Ayuda</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">
+                  <img class="ic" src="">
+                  Cerrar sesion</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
+      <div id="degred" class="carousel-inner">
+        <div class="carousel-item active">
+          <video autoplay loop muted class="d-video">
+            <source src="../img/Overlay.mp4" type="video/mp4" class="d-block w-100" alt="..." />
+          </video>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Overlays para Stream</h5>
+            <p>
+              Wallpaper animado de Satoru Gojo y Toji Fujiguro de paneles directamente sacados del manga.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/Urabe.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>
+              Some representative placeholder content for the second slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/Banner.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Some representative placeholder content for the third slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/kaguya .png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Four slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/Emma.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Five slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <aside class="row">
+      <div class="card cards" style="width: 16rem;">
+        <div class="img1">
+          <img src="../img/Violet.jpg" class="card-img-top imgtarjet" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card cards" style="width: 16rem;">
+        <div class="img1">
+          <img src="../img/Vivy.jpg" class="card-img-top imgtarjet" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card cards" style="width: 16rem;">
+        <div class="img1">
+          <img src="../img/Take y Hina.jpg" class="card-img-top imgtarjet" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card cards" style="width: 16rem;">
+        <div class="img1">
+          <img src="../img/Urabe.jpg" class="card-img-top imgtarjet" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card cards" style="width: 16rem;">
+        <div class="img1">
+          <img src="../img/Emma.png" class="card-img-top imgtarjet" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </aside>
+    <div id="conenidosw" class="contenido">
+      <div class="danny">
+        <img id="idlogo" class="imagen img-fluid" src="../img/logo per.png">
+        <p class="dannyinfo"> Desde temprana edad, Danny vio nacer en su interior una fascinación profunda e
+          indescriptible por el poder creativo que se desataba al tomar un simple lápiz entre sus manos. Cada trazo
+          trazado sobre el papel blanco parecía tener el potencial de convertirse en algo más grande, en una
+          manifestación tangible de sus pensamientos y emociones.</p>
+        <p class="dannyinfo">La habilidad de alinear esos trazos de manera precisa, de entrelazar líneas y sombras de
+          una forma particular, lo llevó a explorar un mundo donde las imágenes cobraban vida propia. Cada conjunto de
+          marcas aparentemente insignificantes se convertía en un portal hacia la expresión, capaz de comunicar ideas y
+          sensaciones que las palabras a menudo luchaban por capturar por completo.</p>
+        <p class="dannyinfo">Era asombroso cómo, a través de esa simple herramienta, podía dar forma a lo intangible,
+          capturando la esencia de un rostro sonriente, la majestuosidad de un paisaje en calma o la intensidad de una
+          emoción en su forma más pura. Cada trazo tenía un propósito, cada línea llevaba consigo una parte de su alma
+          creativa.</p>
+        <p class="dannyinfo">Y conforme esas líneas y curvas cobraban vida, no solo transmitían la imagen que
+          representaban, sino también una parte de sí mismo. Danny descubrió que sus dibujos no eran solo una
+          representación visual, sino un reflejo de su perspectiva única del mundo. Cada dibujo, en su diversidad y
+          detalle, se convirtió en un testimonio de su experiencia personal, un rastro de su viaje artístico y
+          emocional.</p>
+        <p class="dannyinfo">La satisfacción de crear algo desde la nada, de transformar una hoja en blanco en un lienzo
+          lleno de significado, se convirtió en un sentimiento que lo impulsó a explorar y perfeccionar su arte. Y así,
+          a medida que crecía, Danny continuó cultivando esta pasión innata por el dibujo, buscando incansablemente esa
+          "magia" que solo un simple lápiz y su imaginación podían conjurar.</p>
+        <div class="about">
+          <button id="about" class="btn btn-secondary btn-lg" type="submit">Saber mas</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Av. Santo Domingo 1501, Valle de Santo Domingo, Monterrey, N.L., C.P.
+    66612. • 81 2619 6729 • magnopro2015@gmail.com
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/Jqueryindex.js"></script>
+</body>
+
+</html>
